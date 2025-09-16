@@ -13,7 +13,7 @@ export const myProjects = [
 		],
 		href: "",
 		logo: "",
-		image: "/assets/projects/accessories.jpg",
+		image: "/assets/projects/canara.png",
 		tags: [
 			{
 				id: 1,
@@ -62,7 +62,7 @@ export const myProjects = [
 		],
 		href: "",
 		logo: "",
-		image: "/assets/projects/auth-system.jpg",
+		image: "/assets/projects/souhardha.png",
 		tags: [
 			{
 				id: 1,
@@ -124,7 +124,7 @@ export const myProjects = [
 		],
 		href: "",
 		logo: "",
-		image: "/assets/projects/blazor-app.jpg",
+		image: "/assets/projects/sma.png",
 		tags: [
 			{
 				id: 1,
@@ -181,7 +181,7 @@ export const myProjects = [
 		],
 		href: "",
 		logo: "",
-		image: "/assets/projects/game-engine.jpg",
+		image: "/assets/projects/eoffice.png",
 		tags: [
 			{
 				id: 1,
@@ -239,7 +239,7 @@ export const myProjects = [
 		],
 		href: "",
 		logo: "",
-		image: "/assets/projects/wordpress-theme.jpg",
+		image: "/assets/projects/placeholderimage.webp",
 		tags: [
 			{
 				id: 1,
