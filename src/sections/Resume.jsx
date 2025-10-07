@@ -3,7 +3,7 @@ import DownloadResumeButton from "../components/DownloadResumeButton";
 
 function Resume() {
 	return (
-		<section className="relative mt-10 py-20 text-white text-center rounded-3xl overflow-hidden">
+		<section className="relative m-2 mt-10 py-20 text-white text-center rounded-3xl overflow-hidden">
 			<motion.div
 				className="absolute inset-0 bg-gradient-to-b from-gray-900 via-gray-400 to-gray-900"
 				animate={{
