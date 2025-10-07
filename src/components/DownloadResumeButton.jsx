@@ -3,16 +3,15 @@ import { AnimatePresence, motion } from "motion/react";
 
 const DownloadResumeButton = () => {
 	const [downloaded, setDownloaded] = useState(false);
-	const resumepath = "hamdankz786@gmail.com";
+	const resumepath = "assets/docs/hamdan-resume.pdf";
 
 	const copyToClipboard = () => {
-		navigator.clipboard.writeText(resumepath);
 		setDownloaded(true);
 		setTimeout(() => setDownloaded(false), 2000);
 	};
 
 	return (
-		<a href="/resume.pdf" download>
+		<a href={resumepath} download>
 			<motion.button
 				onClick={copyToClipboard}
 				whileHover={{ y: -4 }}

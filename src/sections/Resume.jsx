@@ -4,7 +4,6 @@ import DownloadResumeButton from "../components/DownloadResumeButton";
 function Resume() {
 	return (
 		<section className="relative mt-10 py-20 text-white text-center rounded-3xl overflow-hidden">
-			{/* 🔥 Animated dark gradient background */}
 			<motion.div
 				className="absolute inset-0 bg-gradient-to-b from-gray-900 via-gray-400 to-gray-900"
 				animate={{
@@ -16,14 +15,10 @@ function Resume() {
 					ease: "linear",
 				}}
 				style={{
-					backgroundSize: "100% 200%", // This creates the movement illusion
+					backgroundSize: "100% 200%",
 				}}
 			/>
 
-			{/* Subtle overlay for glow and readability */}
-			{/* <div className="absolute inset-0 bg-black/40 backdrop-blur-[1px]" /> */}
-
-			{/* 🌟 Content */}
 			<motion.div
 				initial={{ opacity: 0, y: 100 }}
 				whileInView={{ opacity: 1, y: 0 }}
