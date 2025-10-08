@@ -33,10 +33,10 @@ const Contact = () => {
 				"service_iao9v3b",
 				"template_6h4abv9",
 				{
-					from_name: formData.name,
-					to_name: "Hamdan",
-					from_email: formData.email,
-					to_email: "hamdankz786@gmail.com",
+					name: formData.name,
+					time: Date.UTC(),
+					email: formData.email,
+					title: "Contacting from your protfolio",
 					message: formData.message,
 				},
 				"sVwzZU_Cq751qg7Af"
