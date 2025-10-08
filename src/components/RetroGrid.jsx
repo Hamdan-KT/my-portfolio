@@ -3,8 +3,8 @@ import { twMerge } from "tailwind-merge";
 
 export function RetroGrid({
   className,
-  angle = 65,
-  cellSize = 60,
+  angle = 45,
+  cellSize = 30,
   opacity = 0.5,
   lightLineColor = "black",
   darkLineColor = "black",
